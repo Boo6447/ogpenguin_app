@@ -9,25 +9,7 @@ if (require("electron-squirrel-startup")) app.quit();
 if (process.platform != "darwin") require("update-electron-app")({ repo: "fullmoondev/cpatake_app" });
 
 const ALLOWED_ORIGINS = [
-  "https://app.cpatake.boo",
-  "https://as1.cpatake.boo",
-  "https://as2.cpatake.boo",
-  "https://as3.cpatake.boo",
-  "https://ep.cpatake.boo",
-  "https://pc.cpatake.boo",
-  "https://pc3.cpatake.boo",
-  "https://tv.cpatake.boo",
-  "https://l.tv.cpatake.boo",
-  "https://www.cpatake.boo",
-  "https://cpatake.boo",
-  "https://www.fullmoon.dev",
-  "https://support.fullmoon.dev",
-  "https://status.fullmoon.dev",
-  "https://link.fullmoon.dev",
-  "https://g.live.net.co",
-  "https://www.live.net.co",
-  "https://id.live.net.co",
-  "https://labs.cpatake.boo"
+  "https://old.ogpenguin.online/"
 ];
 
 const pluginPaths = {
@@ -96,7 +78,7 @@ const createWindow = () => {
 
   new Promise((resolve) =>
     setTimeout(() => {
-      mainWindow.loadURL("https://www.cpatake.boo/i/play");
+      mainWindow.loadURL("https://old.ogpenguin.online/");
       resolve();
     }, 5000)
   );
