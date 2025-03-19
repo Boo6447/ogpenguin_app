@@ -15,7 +15,7 @@ function rotateState() {
     currentStateIndex = (currentStateIndex + 1) % states.length;
     rpcClient.setActivity({
         state: states[currentStateIndex],
-        details: currentActivity?.details || "www.cpatake.boo",
+        details: currentActivity?.details || "https://old.ogpenguin.online/",
         largeImageKey: currentActivity?.largeImageKey || "logoicon-onelive",
         startTimestamp: currentActivity?.startTimestamp || Date.now(),
         instance: true,
@@ -74,7 +74,7 @@ async function updateStates() {
     if (switchContent === '0') {
         return {
             state: "Exploring the Island",
-            details: "www.cpatake.boo",
+            details: "https://old.ogpenguin.online/",
             largeImageKey: "prerelease"
         };
     }
