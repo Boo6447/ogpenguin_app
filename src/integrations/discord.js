@@ -8,7 +8,7 @@ function onRpcReady() {
         state: "Exploring Club Penguin Atake and meeting new friends",
         details: "www.cpatake.boo",
         startTimestamp: Date.now(),
-        largeImageKey: "IMG_9275 (1)",
+        largeImageKey: "client_logo1",
         instance: true,
     });
 }
