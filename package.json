@@ -91,7 +91,7 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "fullmoondev",
+              "owner": "boo6447",
               "name": "ogpenguin_app"
             },
             "prerelease": false
@@ -110,7 +110,7 @@
         ]
       }
     ],
-    "appId": "pl.moonlightstudios.ogpenguinapp",
+    "appId": "online.ogpenguin.atake",
     "productName": "Original Penguin App",
     "linux": {
       "productName": "OriginalPenguin"
