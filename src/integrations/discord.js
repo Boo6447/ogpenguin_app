@@ -5,8 +5,8 @@ RPC.register(APPLICATION_ID);
 
 function onRpcReady() {
     rpcClient.setActivity({
-        state: "Exploring Club Penguin Atake and meeting new friends",
-        details: "www.cpatake.boo",
+        state: "Exploring Original Penguin and meeting new friends",
+        details: "old.ogpenguin.online",
         startTimestamp: Date.now(),
         largeImageKey: "client_logo1",
         instance: true,
