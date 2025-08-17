@@ -6,7 +6,7 @@ const path = require("path");
 if (require("electron-squirrel-startup")) app.quit();
 
 // Check for updates except for macOS
-if (process.platform != "darwin") require("update-electron-app")({ repo: "fullmoondev/cpatake_app" });
+if (process.platform != "darwin") require("update-electron-app")({ repo: "Boo6447/ogpenguin_app" });
 
 const ALLOWED_ORIGINS = [
   "https://old.ogpenguin.online/"
